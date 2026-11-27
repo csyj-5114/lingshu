@@ -24,7 +24,7 @@ import { sendSmsVerification } from "./sms.mjs";
 const root = resolve(process.cwd());
 const frontendRoot = join(root, "frontend");
 const port = Number(process.env.PORT || 4173);
-const host = process.env.HOST || "127.0.0.0";
+const host = process.env.HOST || "0.0.0.0";
 const cookieName = "lingshu_session";
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
